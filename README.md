@@ -42,7 +42,11 @@ class User extends Authenticatable
  5.6.x    | 4.0.x, 5.0.x, 6.0.x, 7.0.x | 1.1.x
  5.7.x    | 4.0.x, 5.0.x, 6.0.x, 7.0.x | 1.1.x
  5.8.x    | 4.0.x, 5.0.x, 6.0.x, 7.0.x | 1.1.x
- v6.0.x   | 7.5.x                      | 2.x.x
+ 6.0.x    | 7.5.x                      | 2.x.x
+ 6.1.x    | 7.5.x                      | 2.x.x
+ 6.2.x    | 7.5.x                      | 2.x.x
+ 6.3.x    | 7.5.x                      | 2.x.x
+ 6.x      | 7.5.x                      | 2.x.x
 
 And add the service provider in `config/app.php`:
 
