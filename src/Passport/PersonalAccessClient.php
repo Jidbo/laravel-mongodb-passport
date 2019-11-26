@@ -7,11 +7,11 @@ use Jenssegers\Mongodb\Eloquent\Model;
 class PersonalAccessClient extends Model
 {
     /**
-     * The database table used by the model.
+     * The collection used by the model.
      *
      * @var string
      */
-    protected $table = 'oauth_personal_access_clients';
+    protected $collection = 'oauth_personal_access_clients';
 
     /**
      * The guarded attributes on the model.
